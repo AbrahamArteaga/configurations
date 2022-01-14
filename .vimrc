@@ -18,6 +18,7 @@ map i <Up>
 map j <Left>
 map k <Down>
 map H I
+set directory=$HOME/.vim/swap//
 
 call plug#begin("~/.vim/plugged")
 
@@ -58,3 +59,11 @@ set shiftwidth=4		" Number of spaces to use for autoindent.
 set backspace=2			" Fix backsapce behavior on most terminals.
 
 "colorscheme murphy 		" Change a colorscheme.
+"
+"
+"" Set up persistent undo across all files
+" set undofile
+" if !isdirectory("$HOME/.vim/undodir")
+"   call mkdir("HOME/.vim/undodir", "p")
+"endif
+"   set undodir="HOME/.vim/undodir"
