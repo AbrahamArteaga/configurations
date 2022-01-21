@@ -64,9 +64,13 @@ return
 SendInput, 0
 return
 
-!BackSpace::
-SendInput, {BackSpace}
+!f::
+SendInput, .
 return
+
+;!BackSpace::
+;SendInput, {BackSpace}
+;return
 
 ![::
 SendInput, {BackSpace}
@@ -212,7 +216,7 @@ return
 SendInput, {End}
 return
 
-LAlt & [::
+LShift & [::
 SendInput, {Del}
 return
 
@@ -380,6 +384,10 @@ return
 
 RAlt & v::
 SendInput, {Asc 0126}
+return
+
+RAlt & c::
+SendInput, '`'
 return
 
 2 & i::
