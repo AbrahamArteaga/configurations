@@ -168,6 +168,10 @@ RAlt & v::
 SendInput, {Asc 0126}
 return
 
+RAlt & c::
+SendInput, {Asc 0096}
+return
+
 2 & i::
 SendInput, {Up}
 return
