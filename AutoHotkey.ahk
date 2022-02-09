@@ -14,82 +14,24 @@
 ::jh@::jherreraprieto@hotmail.com
 ::numta::4093550004738781
 
-[::BackSpace
+/::BackSpace
 
 4::F5
 
-;[::
+;/::
 ;SendInput, {BackSpace}
 ;Return
-
-8::Esc
-
-!m::
-SendInput, 1
-return
-
-!,::
-SendInput, 2
-return
-
-!.::
-SendInput, 3
-return
-
-!j::
-SendInput, 4
-return
-
-!k::
-SendInput, 5
-return
-
-!l::
-SendInput, 6
-return
-
-!u::
-SendInput, 7
-return
-
-!i::
-SendInput, 8
-return
-
-!o::
-SendInput, 9
-return
-
-!/::
-SendInput, 0
-return
-
-!f::
-SendInput, .
-return
 
 ;!BackSpace::
 ;SendInput, {BackSpace}
 ;return
 
-![::
+!/::
 SendInput, {BackSpace}
 return
 
-!;::
-SendInput, -
-return
-
-!p::
-SendInput, {Asc 0043} ;+
-return
-
-!h::
-SendInput, _
-return
-
-!n::
-SendInput, =
+LShift & /::
+SendInput, {Del}
 return
 
 !Enter::
@@ -100,249 +42,85 @@ return
 SendInput, {BackSpace}
 return
 
-1 & u::
-SendInput, (
-return
-
-1 & i::
-SendInput, )
-return
-
-1 & j::
-SendInput, [ ;{Asc 0091}
-return
-
-1 & k::
-SendInput, ]
-return
-
-1 & m::
-SendInput, {Asc 0123} ;{
-return
-
-1 & ,::
-SendInput, {Asc 0125} ;}
-return
-
-RAlt & z::
-SendInput, \
-return
-
-RAlt & x::
-SendInput, |
-return
-
-RAlt & q::
-SendInput, {Asc 0033} ;!
-return
-
-RAlt & w::
-SendInput, {Asc 0064} ;@
-return
-
-RAlt & e::
-SendInput, {Asc 0035} ;#
-return
-
-RAlt & r::
-SendInput, $
-return
-
-RAlt & a::
-SendInput, {Asc 0037} ;&
-return
-
-RAlt & s::
-SendInput, {Asc 0094} ;^
-return
-
-RAlt & d::
-SendInput, &
-return
-
-RAlt & f::
-SendInput, *
-return
-
-RAlt & v::
-SendInput, {Asc 0126}
-return
-
-RAlt & c::
-SendInput, {Asc 0096}
-return
-
-2 & i::
-SendInput, {Up}
-return
-
-2 & k::
-SendInput, {Down}
-return
-
-2 & j::
-SendInput, {Left}
-return
-
-2 & l::
-SendInput, {Right}
-return
-
-3 & i::
-SendInput, ^{Up}
-return
-
-3 & k::
-SendInput, ^{Down}
-return
-
-3 & j::
-SendInput, ^{Left}
-return
-
-3 & l::
-SendInput, ^{Right}
-return
-
-2 & p::
-SendInput, {PgUp}
-return
-
-2 & `;::
-SendInput, {PgDn}
-return
-
-2 & u::
-SendInput, {Home}
-return
-
-2 & o::
-SendInput, {End}
-return
-
-LShift & [::
-SendInput, {Del}
-return
-
-
-#IfWinActive, VMware
-#SingleInstance Force
-#NoTrayIcon
- 
-; ! - Alt
-; + - Shift
-; ^ - Ctrl
-; # - Win
-
-::ab@::abraham2061257@hotmail.com
-::aa@::aarteagah@unal.edu.co
-::ar@::arteagaherrera11@hotmail.com
-::telab::3232389474
-::telmama::3057467354
-::jh@::jherreraprieto@hotmail.com
-::numta::4093550004738781
-
-[::BackSpace
-
-;[::
-;SendInput, {BackSpace}
-;Return
-
 8::Esc
+
+!Space::
+SendInput, {Space}
+return
 
 !m::
 SendInput, 1
 return
 
-!,::
+!w::
 SendInput, 2
 return
 
-!.::
+!v::
 SendInput, 3
 return
 
-!j::
+!h::
 SendInput, 4
 return
 
-!k::
+!t::
 SendInput, 5
 return
 
-!l::
+!n::
 SendInput, 6
 return
 
-!u::
+!g::
 SendInput, 7
 return
 
-!i::
+!c::
 SendInput, 8
 return
 
-!o::
+!r::
 SendInput, 9
 return
 
-!Space::
+!z::
 SendInput, 0
 return
 
-!BackSpace::
-SendInput, {BackSpace}
+!u::
+SendInput, .
 return
 
-![::
-SendInput, {BackSpace}
+!s::
+SendInput, /
 return
 
-!n::
-SendInput, \
-return
-
-!;::
-SendInput, -
-return
-
-!/::
+!l::
 SendInput, {Asc 0043} ;+
 return
 
-!p::
-SendInput, |
+!d::
+SendInput, {Asc 0063}
 return
 
-!h::
-SendInput, _
-return
-
-!y::
+!b::
 SendInput, =
 return
 
-!Enter::
-SendInput, {Enter}
-return
-
-+[::
-SendInput, {BackSpace}
-return
-
-1 & u::
+1 & g::
 SendInput, (
 return
 
-1 & i::
+1 & r::
 SendInput, )
 return
 
-1 & j::
+1 & h::
 SendInput, [ ;{Asc 0091}
 return
 
-1 & k::
+1 & n::
 SendInput, ]
 return
 
@@ -350,23 +128,39 @@ return
 SendInput, {Asc 0123} ;{
 return
 
-1 & ,::
+1 & v::
 SendInput, {Asc 0125} ;}
 return
 
+RAlt & `;::
+SendInput, \
+return
+
+RAlt & x::
+SendInput, {Asc 168}
+return
+
 RAlt & q::
+SendInput, |
+return
+
+RAlt & '::
+SendInput, {Asc 173}
+return
+
+RAlt & y::
 SendInput, {Asc 0033} ;!
 return
 
-RAlt & w::
+RAlt & ,::
 SendInput, {Asc 0064} ;@
 return
 
-RAlt & e::
+RAlt & .::
 SendInput, {Asc 0035} ;#
 return
 
-RAlt & r::
+RAlt & p::
 SendInput, $
 return
 
@@ -374,75 +168,70 @@ RAlt & a::
 SendInput, {Asc 0037} ;&
 return
 
-RAlt & s::
+RAlt & o::
 SendInput, {Asc 0094} ;^
 return
 
-RAlt & d::
+RAlt & e::
 SendInput, &
 return
 
-RAlt & f::
+RAlt & u::
 SendInput, *
 return
 
-RAlt & v::
+RAlt & k::
 SendInput, {Asc 0126}
 return
 
-RAlt & c::
-SendInput, '`'
+RAlt & j::
+SendInput, {Asc 0096}
 return
 
-2 & i::
+2 & c::
 SendInput, {Up}
 return
 
-2 & k::
+2 & t::
 SendInput, {Down}
 return
 
-2 & j::
+2 & h::
 SendInput, {Left}
 return
 
-2 & l::
+2 & n::
 SendInput, {Right}
 return
 
-3 & i::
+3 & c::
 SendInput, ^{Up}
 return
 
-3 & k::
+3 & t::
 SendInput, ^{Down}
 return
 
-3 & j::
+3 & h::
 SendInput, ^{Left}
 return
 
-3 & l::
+3 & n::
 SendInput, ^{Right}
 return
 
-2 & p::
+2 & l::
 SendInput, {PgUp}
 return
 
-2 & `;::
+2 & s::
 SendInput, {PgDn}
 return
 
-2 & u::
+2 & g::
 SendInput, {Home}
 return
 
-2 & o::
+2 & r::
 SendInput, {End}
 return
-
-LAlt & [::
-SendInput, {Del}
-return
-#IfWinActive
