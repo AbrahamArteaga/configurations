@@ -14,7 +14,7 @@
 ::jh@::jherreraprieto@hotmail.com
 ::numta::4093550004738781
 
-/::BackSpace
+[::BackSpace
 
 9 & a::
 SendInput, {Asc 160}
@@ -92,75 +92,75 @@ return
 SendInput, 1
 return
 
-!w::
+!,::
 SendInput, 2
 return
 
-!v::
+!.::
 SendInput, 3
 return
 
-!h::
+!j::
 SendInput, 4
 return
 
-!t::
+!k::
 SendInput, 5
 return
 
-!n::
+!l::
 SendInput, 6
 return
 
-!g::
+!u::
 SendInput, 7
 return
 
-!c::
+!i::
 SendInput, 8
 return
 
-!r::
+!o::
 SendInput, 9
 return
 
-!z::
+!/::
 SendInput, 0
 return
 
-!u::
+!f::
 SendInput, .
 return
 
-!s::
+!`;::
 SendInput, /
 return
 
-!l::
+!p::
 SendInput, {Asc 0043} ;+
 return
 
-!d::
+!h::
 SendInput, =
 return
 
-!b::
+!n::
 SendInput, {Asc 0063}
 return
 
-1 & g::
+1 & u::
 SendInput, (
 return
 
-1 & r::
+1 & o::
 SendInput, )
 return
 
-1 & h::
+1 & j::
 SendInput, [ ;{Asc 0091}
 return
 
-1 & n::
+1 & l::
 SendInput, ]
 return
 
@@ -168,43 +168,39 @@ return
 SendInput, {Asc 0123} ;{
 return
 
-1 & v::
+1 & .::
 SendInput, {Asc 0125} ;}
 return
 
-RAlt & `;::
+RAlt & z::
 SendInput, \
 return
 
-RAlt & n::
-SendInput, {Asc 164}
-return
-
-RAlt & x::
+RAlt & b::
 SendInput, {Asc 168}
 return
 
-RAlt & q::
+RAlt & x::
 SendInput, |
 return
 
-RAlt & '::
+RAlt & q::
 SendInput, {Asc 173}
 return
 
-RAlt & y::
+RAlt & t::
 SendInput, {Asc 0033} ;!
 return
 
-RAlt & ,::
+RAlt & w::
 SendInput, {Asc 0064} ;@
 return
 
-RAlt & .::
+RAlt & e::
 SendInput, {Asc 0035} ;#
 return
 
-RAlt & p::
+RAlt & r::
 SendInput, $
 return
 
@@ -212,70 +208,70 @@ RAlt & a::
 SendInput, {Asc 0037} ;&
 return
 
-RAlt & o::
+RAlt & s::
 SendInput, {Asc 0094} ;^
 return
 
-RAlt & e::
+RAlt & d::
 SendInput, &
 return
 
-RAlt & u::
+RAlt & f::
 SendInput, *
 return
 
-RAlt & k::
+RAlt & v::
 SendInput, {Asc 0126}
 return
 
-RAlt & j::
+RAlt & c::
 SendInput, {Asc 0096}
 return
 
-2 & c::
+2 & i::
 SendInput, {Up}
 return
 
-2 & t::
+2 & k::
 SendInput, {Down}
 return
 
-2 & h::
+2 & j::
 SendInput, {Left}
 return
 
-2 & n::
+2 & l::
 SendInput, {Right}
 return
 
-3 & c::
+3 & i::
 SendInput, ^{Up}
 return
 
-3 & t::
+3 & k::
 SendInput, ^{Down}
 return
 
-3 & h::
+3 & j::
 SendInput, ^{Left}
 return
 
-3 & n::
+3 & l::
 SendInput, ^{Right}
 return
 
-2 & l::
+2 & p::
 SendInput, {PgUp}
 return
 
-2 & s::
+2 & `;::
 SendInput, {PgDn}
 return
 
-2 & g::
+2 & u::
 SendInput, {Home}
 return
 
-2 & r::
+2 & o::
 SendInput, {End}
 return
