@@ -13,9 +13,9 @@ set relativenumber
 set sw=2
 set laststatus=2
 set noshowmode
-map c <Up>
-map t <Down>
-map n <Right>
+"map c <Up>
+"map t <Down>
+"map n <Right>
 set directory=$HOME/.vim/swap//
 
 call plug#begin("~/.vim/plugged")
