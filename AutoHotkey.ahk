@@ -16,43 +16,47 @@
 
 /::BackSpace
 
-9 & a::
+>!>+/::
+SendInput, BackSpace
+return
+
+>!>+a::
 SendInput, {Asc 160}
 return
 
-9 & e::
+>!>+e::
 SendInput, {Asc 130}
 return
 
-9 & i::
+>!>+i::
 SendInput, {Asc 161}
 return
 
-9 & o::
+>!>+o::
 SendInput, {Asc 162}
 return
 
-9 & u::
+>!>+u::
 SendInput, {Asc 163}
 return
 
-0 & a::
+;9 & a::
 SendInput, {Asc 181}
 return
 
-0 & e::
+;9 & e::
 SendInput, {Asc 144}
 return
 
-0 & i::
+;9 & i::
 SendInput, {Asc 214}
 return
 
-0 & o::
+;9 & o::
 SendInput, {Asc 224}
 return
 
-0 & u::
+;9 & u::
 SendInput, {Asc 233}
 return
 
@@ -70,7 +74,7 @@ return
 SendInput, {BackSpace}
 return
 
-LShift & /::
+>+=::
 SendInput, {Del}
 return
 
@@ -86,6 +90,18 @@ return
 
 !Space::
 SendInput, {Space}
+return
+
+!,::
+SendInput, ,
+return
+
+!.::
+SendInput, .
+return
+
+!-::
+SendInput, -
 return
 
 !m::
@@ -148,103 +164,103 @@ return
 SendInput, {Asc 0063}
 return
 
-1 & g::
+!+c::
 SendInput, (
 return
 
-1 & r::
+!+r::
 SendInput, )
 return
 
-1 & h::
+!+t::
 SendInput, [ ;{Asc 0091}
 return
 
-1 & n::
+!+n::
 SendInput, ]
 return
 
-1 & m::
+!+w::
 SendInput, {Asc 0123} ;{
 return
 
-1 & v::
+!+v::
 SendInput, {Asc 0125} ;}
 return
 
-RAlt & `;::
+>!`;::
 SendInput, \
 return
 
-RAlt & n::
+>!n::
 SendInput, {Asc 164}
 return
 
-RAlt & x::
+>!x::
 SendInput, {Asc 168}
 return
 
-RAlt & q::
+>!q::
 SendInput, |
 return
 
-RAlt & '::
+>!'::
 SendInput, {Asc 173}
 return
 
-RAlt & y::
+>!y::
 SendInput, {Asc 0033} ;!
 return
 
-RAlt & ,::
+>!,::
 SendInput, {Asc 0064} ;@
 return
 
-RAlt & .::
+>!.::
 SendInput, {Asc 0035} ;#
 return
 
-RAlt & p::
+>!p::
 SendInput, $
 return
 
-RAlt & a::
-SendInput, {Asc 0037} ;&
+>!a::
+SendInput, {Asc 0037} ;%
 return
 
-RAlt & o::
+>!o::
 SendInput, {Asc 0094} ;^
 return
 
-RAlt & e::
+>!e::
 SendInput, &
 return
 
-RAlt & u::
+>!u::
 SendInput, *
 return
 
-RAlt & k::
+>!k::
 SendInput, {Asc 0126}
 return
 
-RAlt & j::
+>!j::
 SendInput, {Asc 0096}
 return
 
-2 & c::
+>!>+k::
 SendInput, {Up}
 return
 
-2 & t::
+>!>+j::
 SendInput, {Down}
 return
 
-2 & h::
+!+h::
 SendInput, {Left}
 return
 
-2 & n::
+!+l::
 SendInput, {Right}
 return
 
@@ -264,18 +280,22 @@ return
 SendInput, ^{Right}
 return
 
-2 & l::
+!+f::
 SendInput, {PgUp}
 return
 
-2 & s::
+!+b::
 SendInput, {PgDn}
 return
 
-2 & g::
+!+z::
 SendInput, {Home}
 return
 
-2 & r::
+>!>+p::
 SendInput, {End}
+return
+
+^Space::
+SendInput, ^/
 return
