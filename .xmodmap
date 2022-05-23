@@ -1,60 +1,60 @@
 keycode   8 =
 keycode   9 = Escape NoSymbol Escape NoSymbol Escape
-keycode  10 = 1 exclam 1 exclam exclamdown onesuperior bar exclamdown
-keycode  11 = 2 at 2 quotedbl twosuperior dead_doubleacute at oneeighth
-keycode  12 = 3 numbersign 3 periodcentered threesuperior dead_macron numbersign sterling
-keycode  13 = 4 dollar 4 dollar currency sterling asciitilde dollar
-keycode  14 = 5 percent 5 percent EuroSign dead_cedilla onehalf threeeighths
-keycode  15 = 6 dead_circumflex 6 ampersand onequarter asciicircum notsign fiveeighths
+keycode  10 = F1 exclam 1 exclam exclamdown onesuperior bar exclamdown
+keycode  11 = F2 at 2 quotedbl twosuperior dead_doubleacute at oneeighth
+keycode  12 = F3 numbersign 3 periodcentered threesuperior dead_macron numbersign sterling
+keycode  13 = F4 dollar 4 dollar currency sterling asciitilde dollar
+keycode  14 = F5 percent 5 percent EuroSign dead_cedilla onehalf threeeighths
+keycode  15 = F6 dead_circumflex 6 ampersand onequarter asciicircum notsign fiveeighths
 keycode  16 = 7 ampersand 7 slash onehalf dead_horn braceleft seveneighths
 keycode  17 = Escape asterisk 8 parenleft threequarters dead_ogonek bracketleft trademark
 keycode  18 = 9 parenleft 9 parenright leftsinglequotemark dead_breve bracketright plusminus
 keycode  19 = 0 parenright 0 equal rightsinglequotemark dead_abovering braceright degree
-keycode  20 = minus underscore apostrophe question yen dead_belowdot backslash questiondown
-keycode  21 = equal plus exclamdown questiondown multiply division dead_tilde asciitilde
+keycode  20 = bracketleft braceleft apostrophe question yen dead_belowdot backslash questiondown
+keycode  21 = bracketright braceright exclamdown questiondown multiply division dead_tilde asciitilde
 keycode  22 = BackSpace BackSpace BackSpace BackSpace BackSpace BackSpace
 keycode  23 = Tab ISO_Left_Tab Tab ISO_Left_Tab Tab ISO_Left_Tab
-keycode  24 = q Q q Q exclam
-keycode  25 = w W w W at
-keycode  26 = e E e E numbersign
-keycode  27 = r R r R dollar
-keycode  28 = t T t T 
-keycode  29 = y Y equal Y 
-keycode  30 = u U 7 parenleft Home
-keycode  31 = i I 8 parenright Up
-keycode  32 = o O 9 O End
-keycode  33 = p P bar P Prior
-keycode  34 = BackSpace braceleft dead_grave dead_circumflex guillemotleft leftdoublequotemark bracketleft dead_abovering
-keycode  35 = Delete braceright plus asterisk guillemotright rightdoublequotemark bracketright dead_macron
+keycode  24 = apostrophe quotedbl exclamdown percent exclam
+keycode  25 = comma less at asciicircum at
+keycode  26 = period greater numbersign ampersand numbersign
+keycode  27 = p P dollar End
+keycode  28 = y Y exclam Y 
+keycode  29 = f F f F
+keycode  30 = g G 7 Home
+keycode  31 = c C 8 parenleft Up
+keycode  32 = r R 9 parenright End
+keycode  33 = l L plus Right 
+keycode  34 = BackSpace BackSpace BackSpace BackSpace
+keycode  35 = Delete Delete Delete Delete
 keycode  36 = Return NoSymbol Return NoSymbol Return
 keycode  37 = Control_L NoSymbol Control_L NoSymbol Control_L
-keycode  38 = a A a A percent
-keycode  39 = s S s S asciicircum
-keycode  40 = d D d D ampersand
-keycode  41 = f F f F asterisk
-keycode  42 = g G g G 
-keycode  43 = h H underscore H 
-keycode  44 = j J 4 bracketleft Left
-keycode  45 = k K 5 bracketright Down
-keycode  46 = l L 6 L Right
-keycode  47 = semicolon colon minus Ntilde Next
-keycode  48 = dead_acute dead_diaeresis dead_acute dead_diaeresis apostrophe quotedbl braceleft braceleft
+keycode  38 = a A percent aacute 
+keycode  39 = o O asciicircum oacute 
+keycode  40 = e E ampersand eacute 
+keycode  41 = u U asterisk uacute 
+keycode  42 = i I iacute
+keycode  43 = d D equal D
+keycode  44 = h H 4 Left
+keycode  45 = t T 5 bracketleft Down
+keycode  46 = n N 6 bracketright Right
+keycode  47 = s S slash Ntilde Next
+keycode  48 = minus underscore dead_acute dead_diaeresis apostrophe quotedbl braceleft braceleft
 keycode  49 = dead_grave dead_tilde masculine ordfeminine grave asciitilde backslash backslash
 keycode  50 = Shift_L NoSymbol Shift_L NoSymbol Shift_L
 keycode  51 = backslash bar ccedilla Ccedilla notsign brokenbar braceright dead_breve
-keycode  52 = z Z z Z 
-keycode  53 = x X x X 
-keycode  54 = c C c C 
-keycode  55 = v V v V asciitilde
-keycode  56 = b B b B 
-keycode  57 = n N backslash N 
-keycode  58 = m M 1 braceleft 
-keycode  59 = comma less 2 braceright
-keycode  60 = period greater 3 colon dead_abovedot dead_caron periodcentered division
-keycode  61 = slash question plus underscore questiondown dead_hook dead_belowdot dead_abovedot
+keycode  52 = semicolon colon backslash colon
+keycode  53 = q Q bar Q
+keycode  54 = j J grave Down
+keycode  55 = k K asciitilde Up
+keycode  56 = x X questiondown X 
+keycode  57 = b B question B 
+keycode  58 = m M 1 1 2
+keycode  59 = w W 2 braceleft 
+keycode  60 = v V 3 braceright
+keycode  61 = z Z 0 Home
 keycode  62 = Shift_R NoSymbol Shift_R NoSymbol Shift_R
 keycode  63 = KP_Multiply KP_Multiply KP_Multiply KP_Multiply KP_Multiply KP_Multiply XF86ClearGrab KP_Multiply
-keycode  64 = Mode_switch Meta_L Alt_L Meta_L Alt_L Meta_L
+keycode  64 = Mode_switch 
 keycode  65 = space NoSymbol 0 NoSymbol space
 keycode  66 = Caps_Lock NoSymbol Caps_Lock NoSymbol Caps_Lock
 !keycode  66 = Alt_L Caps_Lock NoSymbol NoSymbol
@@ -99,7 +99,7 @@ keycode 104 = KP_Enter NoSymbol KP_Enter NoSymbol KP_Enter
 keycode 105 = Control_R NoSymbol Control_R NoSymbol Control_R
 keycode 106 = KP_Divide KP_Divide KP_Divide KP_Divide KP_Divide KP_Divide XF86Ungrab KP_Divide
 keycode 107 = Print Sys_Req Print Sys_Req Print Sys_Req
-keycode 108 = ISO_Level3_Shift NoSymbol ISO_Level3_Shift NoSymbol ISO_Level3_Shift
+keycode 108 = Mode_switch
 keycode 109 = Linefeed NoSymbol Linefeed NoSymbol Linefeed
 keycode 110 = Home NoSymbol Home NoSymbol Home
 keycode 111 = Up NoSymbol Up NoSymbol Up
@@ -251,11 +251,13 @@ keycode 255 = XF86RFKill NoSymbol XF86RFKill NoSymbol XF86RFKill
 
 
 
-!clear mod1
-!add mod2 = Alt_L
-!add mod3 = Alt_L    
-
-
+clear Mod1
+!clear Mod2
+!clear Mod3
+!clear Mod4
+clear Mod5
+!add Mod1 = Alt_L
+!add Mod2 = Alt_R
 
 
 
